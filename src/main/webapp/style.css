@@ -1,0 +1,37 @@
+#wifiTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#wifiTable td, #wifiTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#wifiTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#wifiTable tr:hover {
+    background-color: #ddd;
+}
+
+#wifiTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#menuTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#menuTable th {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
