@@ -1,13 +1,14 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
     <title>와이파이 정보 구하기</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript">
-        function getUserLocation() {
-            
-        }
+        // function getUserLocation() {
+        //
+        // }
         
         function getWifiInfo() {
 
@@ -21,14 +22,14 @@
 <table id="menuTable">
     <tr>
         <th><a href="index.jsp">홈</a></th>
-        <th><a href="hello-servlet">위치 히스토리 목록</a></th>
-        <th><a href="getWifi?command=wifi">Open API 와이파이 정보 가져오기</a></th>
+        <th><a href="locationHistory.jsp">위치 히스토리 목록</a></th>
+        <th><a href="wifiList.jsp">Open API 와이파이 정보 가져오기</a></th>
     </tr>
 </table>
 <br>
 LAT: <input type="text" placeholder="0.0" id="LAT">
 , LNG: <input type="text" placeholder="0.0" id="LNG">
-<button onclick="getUserLocation()">내 위치 가져오기</button>
+<%--<button onclick="getUserLocation()">내 위치 가져오기</button>--%>
 <button onclick="getWifiInfo()">근처 WiFi 정보 보기</button>
 <br/>
 <br>
